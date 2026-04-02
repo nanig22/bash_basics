@@ -12,6 +12,7 @@ echo 'Your name was stored in $name'
 # filename and create an empty file named after it
 echo "Enter a filename:"
 read filename
+
 touch $filename
 echo "File $filename created"
-echo "My first change"
+echo "Final combined version"
